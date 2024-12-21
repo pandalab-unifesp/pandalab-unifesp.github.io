@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+        {{ page.title }}
+    </h1>
+    <p class="desc">{{ page.profile.position }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/members/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+        <!-- Social -->
+        <div class="social">
+          <div class="contact-icons">
+            {% if page.profile.email %}
+            <a href="mailto:{{ page.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
+            {% endif %}
+            {% if page.profile.phone %}
+            <a href="tel:{{ page.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
+            {% endif %}
+            {% if page.profile.linkedin %}
+            <a href="https://linkedin.com/in/{{ page.profile.linkedin }}/" class="card-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+            {% endif %}
+            {% if page.profile.orcid %}
+            <a href="https://orcid.org/{{ page.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
+            {% endif %}
+            {% if page.profile.github %}
+            <a href="https://github.com/{{ page.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
+            {% endif %}
+            {% if page.profile.website %}
+            <a href="{{ page.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+  </article>
+</div>
