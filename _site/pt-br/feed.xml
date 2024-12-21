@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/pt-br/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pt-br/" rel="alternate" type="text/html" /><updated>2024-12-21T19:37:49-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PANDA Lab</title><entry><title type="html">a post with tabs</title><link href="http://localhost:4000/pt-br/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-04-30T21:32:13-03:00</published><updated>2024-04-30T21:32:13-03:00</updated><id>http://localhost:4000/blog/2024/tabs</id><content type="html" xml:base="http://localhost:4000/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/pt-br/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/pt-br/" rel="alternate" type="text/html" /><updated>2024-12-21T19:45:33-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">PANDA Lab</title><entry><title type="html">a post with tabs</title><link href="http://localhost:4000/pt-br/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs" /><published>2024-04-30T21:32:13-03:00</published><updated>2024-04-30T21:32:13-03:00</updated><id>http://localhost:4000/blog/2024/tabs</id><content type="html" xml:base="http://localhost:4000/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p>
 
 <h2 id="first-tabs">First tabs</h2>
 
@@ -23,7 +23,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="173ab85a-0383-4d91-83cb-97b2033a1042" data-name="log">
+<ul id="log" class="tab" data-tab="fe223e68-fb68-421b-adc4-fd65297af624" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -38,7 +38,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="173ab85a-0383-4d91-83cb-97b2033a1042" data-name="log">
+<ul class="tab-content" id="fe223e68-fb68-421b-adc4-fd65297af624" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -62,7 +62,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="ef0cd83e-8b8d-4479-9dee-24e79af79156" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="e2ebcbbc-b89a-4b0c-ac87-c87bac9f999d" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -73,7 +73,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="ef0cd83e-8b8d-4479-9dee-24e79af79156" data-name="data-struct">
+<ul class="tab-content" id="e2ebcbbc-b89a-4b0c-ac87-c87bac9f999d" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -95,7 +95,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="a1d61d0a-0146-4d79-a1aa-2a0f77121f08" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="f486db3c-22ae-4c37-bc6a-b8567b1767ac" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -110,7 +110,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="a1d61d0a-0146-4d79-a1aa-2a0f77121f08" data-name="something-else">
+<ul class="tab-content" id="f486db3c-22ae-4c37-bc6a-b8567b1767ac" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
