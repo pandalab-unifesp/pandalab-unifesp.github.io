@@ -6,8 +6,11 @@ blog:
 categories:
   fun: fun
   work: work
+  Ongoing: Ongoing
+  Past: Past
   Faculty: Faculty
-  Student: Student
+  Students: Students
+  Alumni: Alumni
   Collaborators: Collaborators
 citation:
   bibtex: "or as a BibTeX entry:"
@@ -15,6 +18,7 @@ citation:
 contact_note: 
 cv:
   address: Address
+  advisor: Advisor
   area: Area
   awarder: Awarder
   awards: Awards

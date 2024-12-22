@@ -3,10 +3,10 @@ page_id: projects
 layout: page
 title: projetos
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: Projetos desenvolvidos no PANDA lab.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Atuais, Finalizados]
 horizontal: false
 ---
 

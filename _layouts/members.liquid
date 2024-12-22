@@ -7,6 +7,9 @@ layout: default
         {{ page.title }}
     </h1>
     <p class="desc">{{ page.profile.position }}</p>
+    {% if page.profile.advisor %}
+      <p class="desc">{{ page.profile.advisor }}</p>
+    {% endif %}
   </header>
 
   <article>

@@ -6,7 +6,7 @@ permalink: /team/
 description: Members of the lab
 nav: true
 nav_order: 1
-display_categories: [Faculty, Student, Collaborators]
+display_categories: [Faculty, Students, Collaborators, Alumni]
 horizontal: false
 ---
 

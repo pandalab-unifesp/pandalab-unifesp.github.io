@@ -6,6 +6,9 @@ blog:
 categories:
   fun: diversão
   work: trabalho
+  Atuais: Atuais
+  Alumni: Alumni
+  Finalizados: Finalizados
   Professores: Professores
   Estudantes: Estudantes
   Colaboradores: Colaboradores
@@ -15,6 +18,7 @@ citation:
 contact_note: 
 cv:
   address: Endereço
+  advisor: Orientador
   area: Área
   awarder: Premiado por
   awards: Prêmios
