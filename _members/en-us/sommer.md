@@ -1,18 +1,18 @@
 ---
 layout: members
-title: Aluno Fulano
+title: Christoph Sommer
 description: 
-img: assets/img/members/aluno.png
-importance: 10
+img: assets/img/members/sommer.png
+importance: 2
 category: Collaborators
-redirect: https://unifesp.br
+redirect: https://www.cms-labs.org/people/sommer/
 # toc:
 #   sidebar: left
 
 profile:
-    name: Collab
-    position: Professor @ Mars University
-    image: aluno.png
+    name: Christoph Sommer
+    position: Professor @ TU Dresden, Germany
+    image: sommer.png
     align: right
     image_circular: false # crops the image to make it circular
     email: 
@@ -21,7 +21,7 @@ profile:
     github: 
     website:
     address: >
-        Mars
+        Dresden, Germany
     more_info: >
 
 ---
