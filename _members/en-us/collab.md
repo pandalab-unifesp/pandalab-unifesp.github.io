@@ -3,7 +3,7 @@ layout: members
 title: Aluno Fulano
 description: 
 img: assets/img/members/aluno.png
-importance: 1
+importance: 10
 category: Collaborators
 redirect: https://unifesp.br
 # toc:

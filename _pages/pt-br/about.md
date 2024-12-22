@@ -28,8 +28,8 @@ social: false # includes social icons at the bottom of the page
     </div>
 </div>
 
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+O Laboratório de Protocolos e Aplicações Distribuídas em Rede, do inglês _**P**rotocols **A**nd **N**etwork **D**istributed **A**pplications_ (**PANDA**), foi fundado no ano de 2024 no [Instituto de Ciência e Tecnologia (ICT)](https://www.unifesp.br/campus/sjc/) da [Universidade Federal de São Paulo (UNIFESP)](https://www.unifesp.br), na cidade de São José dos Campos (SP), com o objetivo de acolher e promover projetos de pesquisa na área de Redes de Computadores e Sistemas Distribuídos.
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
+Nossa equipe inclui professores permanentes, pesquisadores em nível de pós-doutorado, doutorandos, mestrandos e alunos de graduação, que desenvolvem pesquisas de Iniciação Científica e pesquisadores colaboradores do Brasil e do mundo.
 
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
+O **PANDA Lab** recebe apoio de agências de fomento à pesquisa na forma de bolsas de estudos para alunos de inicição científica, mestrado e doutorado. As parcerias são uma contribuição valiosa para a formação de recursos humanos altamente qualificados no Brasil.
