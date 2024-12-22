@@ -16,10 +16,10 @@ profile:
     image: aluno.png
     align: right
     image_circular: false # crops the image to make it circular
-    email: 
-    linkedin: 
+    email: matheus.esteves31@unifesp.br
+    linkedin: https://www.linkedin.com/in/matheusesteves31/
     orcid: 
-    github: 
+    github: https://github.com/Esteves31
     website:
     address: >
         São José dos Campos, Brazil 🇧🇷
