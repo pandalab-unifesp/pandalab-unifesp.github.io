@@ -1,16 +1,16 @@
 ---
 layout: members
-title: Matheus Esteves
+title: Matheus Ramos Esteves
 description: 
 img: assets/img/members/aluno.png
-importance: 1
+importance: 2
 category: Estudantes
 # toc:
 #   sidebar: left
 
 profile:
-    name: Matheus Esteves
-    position: Aluno de Graduação @ UNIFESP
+    name: Matheus R. Esteves
+    position: Graduação @ UNIFESP
     advisor: >
         Orientador: Joahannes Costa
     image: aluno.png
@@ -26,4 +26,6 @@ profile:
     more_info: >
 ---
 
-TBD
+**Tema**: Computação de Borda Veicular
+
+**Start**: 2024

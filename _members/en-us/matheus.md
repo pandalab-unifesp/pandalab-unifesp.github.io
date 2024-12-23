@@ -1,9 +1,9 @@
 ---
 layout: members
-title: Matheus Esteves
+title: Matheus Ramos Esteves
 description: 
 img: assets/img/members/aluno.png
-importance: 1
+importance: 2
 category: Students
 # toc:
 #   sidebar: left
@@ -27,4 +27,6 @@ profile:
 
 ---
 
-TBD
+**Theme**: Vehicular Edge Computing
+
+**Start**: 2024
