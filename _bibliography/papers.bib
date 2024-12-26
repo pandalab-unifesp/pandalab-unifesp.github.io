@@ -3,6 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{kimura2024evaluating,
+  abbr={ACM TOMM},
+  bibtex_show={true},
+  abstract={The promises of multipath transport are to aggregate bandwidth, improve resource utilization, and enhance reliability. In this paper, we demonstrate that the way multipath coupled congestion control is defined today leads to a suboptimal resource utilisation when network paths are disjoint, i.e., they do not share a bottleneck link. With growing interest in standardising Multipath QUIC (MPQUIC), we have implemented the practical shared bottleneck detection (SBD) algorithm from RFC8382 in MPQUIC (MPQUIC-SBD). Through extensive experiments, we evaluate MPQUIC-SBD in the context of video streaming with various Adaptive Bitrate (ABR) algorithms, addressing both ABR classes of rule-based and learning-based solutions. We demonstrate that MPQUIC-SBD accurately detects shared bottlenecks over 90% of the time, depending on the ABR algorithm, as the size of the video segments increases. In non-shared bottleneck scenarios, when MPQUIC-SBD detects that its QUIC subflows do not share the same network resources, it decouples their congestion windows accordingly, enabling video throughput gains of up to 37% compared to MPQUIC. These gains translate directly into improved video quality metrics, including higher bitrate, better resolution, and reduced buffering, resulting in an enhanced quality of experience for users.},
+  title={Evaluating Adaptive Video Streaming over Multipath
+QUIC with Shared Bottleneck Detection},
+  author={Kimura, Bruno YL and Ferlin, Simone and Paiva, Thomas and Mahmoodi, Toktam and Brunstrom, Anna and Alay, Ozgu},
+  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+  volume={},
+  number={},
+  pages={1--25},
+  year={2024},
+  publisher={ACM},
+  selected={true},
+}
+
+
 @article{silva2021iot,
   abbr={IEEE COMMAG},
   bibtex_show={true},
